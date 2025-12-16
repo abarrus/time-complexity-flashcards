@@ -78,14 +78,14 @@ function study() {
 
     function render() {
         if (deck.length === 0) {
-            text.textContent = "Done 🎉";
+            text.textContent = "Done!!!!!";
             yesBtn.disabled = true;
             noBtn.disabled = true;
             return;
         }
 
-        showingBack = true;
-        text.textContent = deck[0].front;
+        showingBack = false;
+        updateFlashcardText();
     }
 
     function flip() {
