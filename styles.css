@@ -1,0 +1,72 @@
+* {
+    color: #454545;
+}
+
+body {
+    background-color: #EEEEEE;
+    padding: 15px;
+}
+
+table {
+    border-collapse: collapse; /* makes it so tr border bottom works */
+}
+
+th,td {
+    padding: 5px 15px;
+}
+
+.big-row {
+    margin-bottom: 10px;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+td:nth-child(odd), th:nth-child(odd) {
+  background-color: #d3dcdc;
+}
+
+td.blacked-out {
+  background-color: #6c6c6c;
+  color: #6c6c6c;
+}
+
+td.blacked-out:nth-child(odd) {
+  background-color: #5d5d5d;
+  color: #5d5d5d
+}
+
+td.got-wrong {
+  background-color: #644444;
+  color: #644444;
+}
+
+td.got-wrong:nth-child(odd) {
+  background-color: #533838;
+  color: #533838;
+}
+
+.btn-outline-dark {
+    margin-bottom: 5px;
+    width: 100%;
+    font-size: 15px;
+    padding: 0;
+}
+
+#flashcard {
+    border-style: solid;
+    border-width: 1px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+#study {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+tr {
+    border-bottom-width: 1px;
+}
