@@ -20,7 +20,7 @@ export const collections = [
         O.LOGARITHMIC
     )),
     new Item("Heap", Type.COLLECTION, new Collection(
-        O.LOGARITHMIC, O.LINEAR, O.LINEAR, O.LINEAR
+        O.LOGARITHMIC, O.LOGARITHMIC, O.LINEAR, O.LINEAR
     )),
     new Item("Queue", Type.COLLECTION, new Collection(
         O.CONSTANT, O.CONSTANT, O.CONSTANT, O.LINEAR
