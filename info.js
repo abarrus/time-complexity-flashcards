@@ -32,7 +32,7 @@ export const sortingAlgorithms = [
         O.QUADRATIC
     )),
     new Item("Insertion Sort", Type.SORT, new SortAlgorithm(
-        O.QUADRATIC, O.LINEAR, O.QUADRATIC
+        O.LINEAR, O.QUADRATIC, O.QUADRATIC
     )),
     new Item("Merge Sort", Type.SORT, new SortAlgorithm(
         O.LINEARITHMIC
