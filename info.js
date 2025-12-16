@@ -38,6 +38,6 @@ export const sortingAlgorithms = [
         O.LINEARITHMIC
     )),
     new Item("Quicksort", Type.SORT, new SortAlgorithm(
-        O.QUADRATIC, O.LINEARITHMIC, O.LINEARITHMIC
+        O.LINEARITHMIC, O.QUADRATIC, O.LINEARITHMIC
     )),
 ]
